@@ -72,7 +72,8 @@
         android:padding="10dp"
         android:background="@color/white"
         android:spinnerMode="dropdown"
-        android:dropDownSelector="@color/black"/>
+        android:dropDownSelector="@color/black"
+        android:dropDownWidth="match_parent"/>
 
     <LinearLayout
         android:layout_width="match_parent"
