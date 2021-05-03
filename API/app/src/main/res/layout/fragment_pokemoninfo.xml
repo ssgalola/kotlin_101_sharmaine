@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pokemon_data_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokémon Data"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="@font/pixel"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:id="@+id/p_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME: "
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pokemon_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:id="@+id/p_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POKEMON ID: "
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel"/>
+
+        <TextView
+            android:id="@+id/pokemon_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:id="@+id/p_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEIGHT: "
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel"/>
+
+        <TextView
+            android:id="@+id/pokemon_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="height"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp">
+
+        <TextView
+            android:id="@+id/p_abilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABILITIES: "
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel"/>
+
+        <TextView
+            android:id="@+id/pokemon_abilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abilities"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:fontFamily="@font/pixel"
+            android:lineSpacingExtra="3dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
